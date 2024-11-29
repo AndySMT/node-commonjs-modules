@@ -11,3 +11,15 @@ console.log(
     "Qualsiasi altra cosa basta che non sia calcio"
   )
 );
+
+function user() {
+  return {
+    nome: importName.fullName("Andy", "Simota"),
+    hobby: importHobby.hobby(
+      "F1",
+      "LOL",
+      "Qualsiasi altra cosa basta che non sia calcio"
+    ),
+  };
+}
+console.log(user());
