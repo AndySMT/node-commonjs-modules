@@ -2,7 +2,7 @@ const importName = require("./utility/names");
 console.log(importName);
 console.log(importName.fullName("Gigi", "Becali"));
 
-const importHobby = require("./utility/hobbies");
+const importHobby = require("./utility/hobbies.js");
 console.log(importHobby);
 console.log(
   importHobby.hobby(
